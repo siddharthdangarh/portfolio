@@ -1,4 +1,9 @@
+# *
 User-agent: *
 Allow: /
 
+# Host
+Host: https://portfolio.siddharthdangarh.com
+
+# Sitemaps
 Sitemap: https://portfolio.siddharthdangarh.com/sitemap.xml

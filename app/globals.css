@@ -24,3 +24,11 @@ body {
   color: var(--foreground);
   font-family: Arial, Helvetica, sans-serif;
 }
+
+
+.btn-primary {
+  @apply px-4 py-2 rounded-full bg-[#6366f1] text-white font-semibold shadow hover:bg-[#4f46e5] transition;
+}
+.btn-secondary {
+  @apply px-4 py-2 rounded-full bg-white dark:bg-[#232946] border border-[#6366f1] text-[#6366f1] dark:text-[#a5b4fc] font-semibold shadow hover:bg-[#6366f1] hover:text-white transition;
+}

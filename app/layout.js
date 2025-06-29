@@ -12,20 +12,56 @@ const geistMono = Geist_Mono({
 });
 
 export const metadata = {
-  title: "Portfolio",
-  description: "Siddharth Dangarh's Portfolio",
+  title: "Portfolio | Siddharth Dangarh",
+  description: "Siddharth Dangarh's Portfolio - Senior Software Developer & Tech Enthusiast",
+  keywords: [
+    "Siddharth Dangarh",
+    "Siddharth",
+    "Dangarh",
+    "Portfolio",
+    "Full Stack Developer",
+    "Web Developer",
+    "React",
+    "Next.js",
+    "JavaScript",
+    "Frontend",
+    "Backend",
+    "Problem Solver",
+    "Software Architect",
+    "Solutions Architect",
+    "AI Developer",
+    "AI Designer"
+  ],
+  authors: [{ name: "Siddharth Dangarh", url: "https://portfolio.siddharthdangarh.com" }],
+  creator: "Siddharth Dangarh",
   icons: {
     icon: "/images/favicon.ico",
   },
   openGraph: {
-    title: "Portfolio",
-    description: "Siddharth Dangarh's Portfolio",
-    // images: [{
-    //   url: "https://siddharthdangarh.com/images/portfolio/preview.jpeg",
-    //   width: 1200,
-    //   height: 630,
-    //   alt: "Portfolio Preview"
-    // }]
+    title: "Portfolio | Siddharth Dangarh",
+    description: "Explore the work and projects of Siddharth Dangarh, a passionate Software Developer.",
+    url: "https://portfolio.siddharthdangarh.com",
+    siteName: "Siddharth Dangarh Portfolio",
+    images: [
+      {
+        url: "https://portfolio.siddharthdangarh.com/images/preview.jpeg",
+        width: 1200,
+        height: 630,
+        alt: "Portfolio Preview"
+      }
+    ],
+    locale: "en_US",
+    type: "website",
+  },
+  robots: {
+    index: true,
+    follow: true,
+    nocache: false,
+    googleBot: {
+      index: true,
+      follow: true,
+      noimageindex: false,
+    },
   },
 };
 

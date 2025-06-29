@@ -8,6 +8,7 @@ import Skills from "./components/Skills";
 import Projects from "./components/Projects";
 import Footer from "./components/Footer";
 import AnimatedDivider from "./components/AnimatedDivider";
+import DidYouKnow from "./components/DidYouKnow";
 
 // Required for GLTF loading
 // At the top of your file or in _app.js/_app.tsx
@@ -55,6 +56,7 @@ export default function Home() {
       <AnimatedDivider flip />
       <Projects />
       <Footer />
+      <DidYouKnow />
     </div>
   );
 }

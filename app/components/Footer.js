@@ -7,11 +7,8 @@ export default function Footer() {
         <a href="mailto:siddharthdangarh872@gmail.com" className="flex items-center gap-2 hover:underline">
           <EnvelopeIcon className="w-5 h-5 text-[#ff7e5f]" /> Email
         </a>
-        <a href="#linkedin" className="flex items-center gap-2 hover:underline">
+        <a href="https://in.linkedin.com/in/siddharth-dangarh-a896b61a7" className="flex items-center gap-2 hover:underline" target="_blank" rel="noopener noreferrer">
           <GlobeAltIcon className="w-5 h-5 text-[#f9d423]" /> LinkedIn
-        </a>
-        <a href="#portfolio" className="flex items-center gap-2 hover:underline">
-          <WindowIcon className="w-5 h-5 text-[#a259f7]" /> Portfolio
         </a>
       </div>
       <div className="text-sm text-[#ff7e5f] dark:text-[#f9d423]">&copy; {new Date().getFullYear()} Siddharth Dangarh</div>

@@ -2,7 +2,7 @@ import { SparklesIcon } from "@heroicons/react/24/solid";
 
 export default function Hero() {
   return (
-    <section id="hero" className="relative w-full flex flex-col items-center justify-center py-28 mb-16 overflow-hidden min-h-[500px] scroll-mt-24">
+    <section id="hero" className="relative w-full flex flex-col items-center justify-center py-28 my-8 overflow-hidden min-h-[500px] scroll-mt-24">
       {/* Example: Add a mesh gradient or fun SVG here if you want */}
       <div className="flex items-center gap-3 justify-center mb-2">
         <SparklesIcon className="w-8 h-8 text-[#ff7e5f]" />

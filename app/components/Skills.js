@@ -21,7 +21,7 @@ const skillGroups = [
 
 export default function Skills() {
   return (
-    <section id="skills" className="w-full max-w-3xl mx-auto mb-16 scroll-mt-24">
+    <section id="skills" className="w-full max-w-3xl mx-auto my-8 scroll-mt-24">
       <div className="flex items-center gap-3 mb-6">
         <WrenchScrewdriverIcon className="w-7 h-7 text-[#f9d423]" />
         <h2 className="text-3xl font-bold text-[#1a1a1a] dark:text-[#fff7e6]">My Toolbox</h2>

@@ -7,6 +7,7 @@ import Experience from "./components/Experience";
 import Skills from "./components/Skills";
 import Projects from "./components/Projects";
 import Footer from "./components/Footer";
+import AnimatedDivider from "./components/AnimatedDivider";
 
 // Required for GLTF loading
 // At the top of your file or in _app.js/_app.tsx
@@ -45,30 +46,15 @@ export default function Home() {
       </svg>
       </div>
       <Hero />
-      <SectionDivider />
+      <AnimatedDivider />
       <About />
-      <SectionDivider flip />
+      <AnimatedDivider flip />
       <Experience />
-      <SectionDivider />
+      <AnimatedDivider />
       <Skills />
-      <SectionDivider flip />
+      <AnimatedDivider flip />
       <Projects />
       <Footer />
-    </div>
-  );
-}
-
-// Section divider component (add this in the same file or as a separate component)
-function SectionDivider({ flip }) {
-  return (
-    <div className={`w-full overflow-hidden ${flip ? "rotate-180" : ""} my-10`}>
-      <svg viewBox="0 0 1440 80" fill="none" className="w-full h-20">
-        <path
-          d="M0,40 C480,80 960,0 1440,40 L1440,80 L0,80 Z"
-          fill="#f8fafc"
-          className="dark:fill-[#0a0a0a]"
-        />
-      </svg>
     </div>
   );
 }

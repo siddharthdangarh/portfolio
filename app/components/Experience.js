@@ -33,7 +33,7 @@ const experiences = [
 
 export default function Experience() {
   return (
-    <section id="experience" className="w-full max-w-3xl mx-auto mb-16 scroll-mt-24">
+    <section id="experience" className="w-full max-w-3xl mx-auto my-8 scroll-mt-24">
       <div className="flex items-center gap-3 mb-6">
         <BriefcaseIcon className="w-7 h-7 text-[#ff7e5f]" />
         <h2 className="text-3xl font-bold text-[#1a1a1a] dark:text-[#fff7e6]">Experience</h2>

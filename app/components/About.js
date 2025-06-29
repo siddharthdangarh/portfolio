@@ -2,7 +2,7 @@ import { UserCircleIcon } from "@heroicons/react/24/solid";
 
 export default function About() {
   return (
-    <section id="about" className="w-full max-w-3xl mx-auto bg-white/80 dark:bg-[#2d1a2d]/80 rounded-3xl shadow-2xl p-12 mb-16 border border-[#ffe0ec] dark:border-[#f9d423] backdrop-blur-md transition-all duration-300 hover:shadow-[0_8px_32px_0_rgba(255,126,95,0.15)] scroll-mt-24">
+    <section id="about" className="w-full max-w-3xl mx-auto bg-white/80 dark:bg-[#2d1a2d]/80 rounded-3xl shadow-2xl p-12 my-8 border border-[#ffe0ec] dark:border-[#f9d423] backdrop-blur-md transition-all duration-300 hover:shadow-[0_8px_32px_0_rgba(255,126,95,0.15)] scroll-mt-24">
       <div className="flex items-center gap-3 mb-6">
         <UserCircleIcon className="w-7 h-7 text-[#ff7e5f]" />
         <h2 className="text-3xl font-bold text-[#1a1a1a] dark:text-[#fff7e6]">My Journey</h2>
